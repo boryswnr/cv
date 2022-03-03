@@ -1,0 +1,173 @@
+body {
+  font-family: 'Mohave', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+aside section {
+  margin: 40px 0 0 0;
+}
+
+aside section h3 {
+  font-size: 28px;
+  margin: 0;
+}
+
+aside section ul {
+  line-height: 1.7;
+}
+
+aside section ul i {
+  width: 20px;
+  margin: 0 10px;
+}
+
+div section {
+  margin: 40px 0 0 0;
+}
+
+div section h3 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+}
+
+.container .leftSide {
+  min-width: 300px;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#1c1c4d), color-stop(#3f3f6b), to(#dddddd));
+  background-image: linear-gradient(to bottom right, #1c1c4d, #3f3f6b, #dddddd);
+  padding: 0 0 0 20px;
+  color: #ebebeb;
+}
+
+.container .leftSide .name {
+  font-size: 50px;
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: right;
+  margin: 40px 0;
+}
+
+.container .leftSide .contacts .informationList li .informationLink {
+  color: #ebebeb;
+  font-weight: 400;
+}
+
+.container .leftSide .contacts .informationList li .informationLink:hover {
+  color: #b4b4b4;
+  padding: 0 0 0 10px;
+}
+
+.container .leftSide .contacts .informationList li .informationLink i {
+  margin-left: 0;
+}
+
+.container .leftSide .widget {
+  margin: 100px 0 0 0;
+}
+
+.container .leftSide .widget .widgetLink {
+  background-color: #000000;
+  color: #ebebeb;
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  -webkit-box-shadow: 10px 10px 15px 5px #0000006e;
+          box-shadow: 10px 10px 15px 5px #0000006e;
+}
+
+.container .leftSide .widget .widgetLink:hover {
+  -webkit-box-shadow: 10px 10px 15px 5px #3b3b3bc9;
+          box-shadow: 10px 10px 15px 5px #3b3b3bc9;
+}
+
+.container .leftSide .widget .widgetLink:active {
+  -webkit-box-shadow: 5px 5px 8px 2px #3b3b3bc9 inset;
+          box-shadow: 5px 5px 8px 2px #3b3b3bc9 inset;
+}
+
+.rightSide {
+  padding: 0 80px 20px 20px;
+  color: #000000;
+  background-color: #e0e0e0;
+}
+
+.rightSide .title {
+  font-size: 50px;
+  padding: 20px 0 0 0;
+  margin: 40px 0;
+}
+
+.rightSide .bio .aboutMeText {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.rightSide .myProjects a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.rightSide .myProjects a:hover {
+  color: #b4b4b4;
+  padding: 10px;
+}
+
+.rightSide .experience .job {
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+.rightSide .experience .jobsTime {
+  color: #6e6e6e;
+  font-size: 14px;
+  margin: 0;
+}
+
+.rightSide .experience .jobsTasks {
+  padding: 10px 0;
+  line-height: 1.4;
+}
+
+.rightSide .education .educationDegree {
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+.rightSide .education .educationTime {
+  margin: 0;
+  font-size: 14px;
+  color: #6e6e6e;
+}
+
+.rightSide .education .educationDetails {
+  margin: 0;
+  padding: 10px 0;
+  line-height: 1.4;
+}
+
+.rightSide .consent {
+  margin: 480px 0 0 0;
+}
+
+.rightSide .consent p {
+  color: #00000057;
+  font-style: italic;
+  font-size: 12px;
+}

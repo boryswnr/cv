@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    width: 1200px;
+    // margin-left: auto;
+    // margin-right: auto;
+
+    .leftSide {
+        min-width: 300px;
+        background-image: linear-gradient(to bottom right, #1c1c4d, #3f3f6b, #dddddd);
+        padding: 0 0 0 20px;
+        color: $mainLeftSectionFontColor;
+
+        .name {
+            font-size: 50px;
+            padding-top: 20px;
+            padding-right: 20px;
+            text-align: right;
+            margin: 40px 0;
+        }
+
+        // Most of the sections on the left side
+        // are described in the _global.scss
+
+        .contacts {
+            .informationList {
+                li {
+                    .informationLink {
+                        color: $mainLeftSectionFontColor;
+                        font-weight: 400;
+
+                        &:hover {
+                            color: $linkHoverFontColor;
+                            padding: 0 0 0 10px;
+                        }
+
+                        i {
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .widget {
+            margin: 100px 0 0 0;
+
+            .widgetLink {
+                background-color: $widgetBgColor;
+                color: $mainLeftSectionFontColor;
+                padding: 15px 40px;
+                border-radius: 10px;
+                font-size: 20px;
+                box-shadow: 10px 10px 15px 5px #0000006e;
+
+                &:hover {
+                    box-shadow: 10px 10px 15px 5px #3b3b3bc9;
+                }
+
+                &:active {
+                    box-shadow: 5px 5px 8px 2px #3b3b3bc9 inset;
+                }
+            }
+        }
+
+
+    }
+}

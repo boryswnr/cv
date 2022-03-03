@@ -1,0 +1,51 @@
+body {
+    //background-color: #dddddd;
+
+    font-family: 'Mohave', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    transition: 300ms;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+// LEFT SIDE
+
+aside {
+    section {
+        margin: 40px 0 0 0;
+
+        h3 {
+            font-size: 28px;
+            margin: 0;
+        }
+
+        ul {
+            line-height: 1.7;
+
+            i {
+                width: 20px;
+                margin: 0 10px;
+            }
+        }
+    }
+}
+
+// MAIN PART
+
+div {
+    section {
+        margin: 40px 0 0 0;
+
+        h3 {
+            font-size: 28px;
+            margin: 0;
+        }
+    }
+}

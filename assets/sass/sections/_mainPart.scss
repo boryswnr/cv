@@ -1,0 +1,78 @@
+.rightSide {
+    padding: 0 80px 20px 20px;
+    color: $mainMainPartFontColor;
+    background-color: $mainPartBgColor;
+
+    .title {
+        font-size: 50px;
+        padding: 20px 0 0 0;
+        margin: 40px 0;
+    }
+
+    .bio {
+        .aboutMeText {
+            margin: 0;
+            line-height: 1.4;
+        }
+    }
+
+    .myProjects {
+        a {
+            text-decoration: none;
+            color: $mainMainPartFontColor;
+
+            &:hover {
+                color: $linkHoverFontColor;
+                padding: 10px;
+            }
+        }
+    }
+
+    .experience {
+        .job {
+            margin: 0;
+            padding: 10px 0 0 0;
+        }
+
+        .jobsTime {
+            color: $dateFontColor;
+            font-size: 14px;
+            margin: 0;
+        }
+
+        .jobsTasks {
+            padding: 10px 0;
+            line-height: 1.4;
+        }
+    }
+
+    .education {
+        .educationDegree {
+            margin: 0;
+            padding: 10px 0 0 0;
+        }
+
+        .educationTime {
+            margin: 0;
+            font-size: 14px;
+            color: $dateFontColor;
+        }
+
+        .educationDetails {
+            margin: 0;
+            padding: 10px 0;
+            line-height: 1.4;
+        }
+    }
+
+    .consent {
+        margin: 480px 0 0 0;
+
+        p {
+            color: #00000057;
+            font-style: italic;
+            font-size: 12px;
+        }
+    }
+
+}
