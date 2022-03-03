@@ -1,8 +1,8 @@
 .container {
     display: flex;
     width: 1200px;
-    // margin-left: auto;
-    // margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 
     .leftSide {
         min-width: 300px;
@@ -37,6 +37,21 @@
                             margin-left: 0;
                         }
                     }
+                }
+            }
+        }
+
+        .skills {
+            .dot {
+                display: inline-block;
+                height: 5px;
+                width: 5px;
+                border-radius: 50%;
+                border: solid 1px $mainLeftSectionFontColor;
+                margin: 0 2px 2px 2px;
+
+                &.full {
+                    background-color: $mainLeftSectionFontColor;
                 }
             }
         }

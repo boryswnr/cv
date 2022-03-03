@@ -1,4 +1,6 @@
 body {
+  background-color: #dddddd;
+  padding: 20px;
   font-family: 'Mohave', sans-serif;
 }
 
@@ -46,6 +48,8 @@ div section h3 {
   display: -ms-flexbox;
   display: flex;
   width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container .leftSide {
@@ -76,6 +80,19 @@ div section h3 {
 
 .container .leftSide .contacts .informationList li .informationLink i {
   margin-left: 0;
+}
+
+.container .leftSide .skills .dot {
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  border: solid 1px #ebebeb;
+  margin: 0 2px 2px 2px;
+}
+
+.container .leftSide .skills .dot.full {
+  background-color: #ebebeb;
 }
 
 .container .leftSide .widget {
@@ -129,6 +146,10 @@ div section h3 {
   padding: 10px;
 }
 
+.rightSide .myProjects a i {
+  margin: 0 10px 0 0;
+}
+
 .rightSide .experience .job {
   margin: 0;
   padding: 10px 0 0 0;
@@ -163,7 +184,7 @@ div section h3 {
 }
 
 .rightSide .consent {
-  margin: 480px 0 0 0;
+  margin: 100px 0 0 0;
 }
 
 .rightSide .consent p {
