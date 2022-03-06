@@ -64,7 +64,7 @@ div section h3 {
   font-size: 50px;
   padding-top: 20px;
   padding-right: 20px;
-  text-align: right;
+  text-align: left;
   margin: 40px 0;
 }
 
@@ -106,17 +106,17 @@ div section h3 {
   border-radius: 10px;
   font-size: 20px;
   -webkit-box-shadow: 10px 10px 15px 5px #0000006e;
-          box-shadow: 10px 10px 15px 5px #0000006e;
+  box-shadow: 10px 10px 15px 5px #0000006e;
 }
 
 .container .leftSide .widget .widgetLink:hover {
   -webkit-box-shadow: 10px 10px 15px 5px #3b3b3bc9;
-          box-shadow: 10px 10px 15px 5px #3b3b3bc9;
+  box-shadow: 10px 10px 15px 5px #3b3b3bc9;
 }
 
 .container .leftSide .widget .widgetLink:active {
   -webkit-box-shadow: 5px 5px 8px 2px #3b3b3bc9 inset;
-          box-shadow: 5px 5px 8px 2px #3b3b3bc9 inset;
+  box-shadow: 5px 5px 8px 2px #3b3b3bc9 inset;
 }
 
 .rightSide {
