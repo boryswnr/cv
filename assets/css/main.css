@@ -1,7 +1,12 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   background-color: #dddddd;
   padding: 20px;
-  font-family: 'Mohave', sans-serif;
+  font-family: "Mohave", sans-serif;
 }
 
 a {
@@ -19,16 +24,13 @@ ul {
 aside section {
   margin: 40px 0 0 0;
 }
-
 aside section h3 {
   font-size: 28px;
   margin: 0;
 }
-
 aside section ul {
   line-height: 1.7;
 }
-
 aside section ul i {
   width: 20px;
   margin: 0 10px;
@@ -37,7 +39,6 @@ aside section ul i {
 div section {
   margin: 40px 0 0 0;
 }
-
 div section h3 {
   font-size: 28px;
   margin: 0;
@@ -51,7 +52,6 @@ div section h3 {
   margin-left: auto;
   margin-right: auto;
 }
-
 .container .leftSide {
   min-width: 300px;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#1c1c4d), color-stop(#3f3f6b), to(#dddddd));
@@ -59,7 +59,6 @@ div section h3 {
   padding: 0 0 0 20px;
   color: #ebebeb;
 }
-
 .container .leftSide .name {
   font-size: 50px;
   padding-top: 20px;
@@ -67,21 +66,17 @@ div section h3 {
   text-align: left;
   margin: 40px 0;
 }
-
 .container .leftSide .contacts .informationList li .informationLink {
   color: #ebebeb;
   font-weight: 400;
 }
-
 .container .leftSide .contacts .informationList li .informationLink:hover {
   color: #b4b4b4;
   padding: 0 0 0 10px;
 }
-
 .container .leftSide .contacts .informationList li .informationLink i {
   margin-left: 0;
 }
-
 .container .leftSide .skills .dot {
   display: inline-block;
   height: 5px;
@@ -90,15 +85,12 @@ div section h3 {
   border: solid 1px #ebebeb;
   margin: 0 2px 2px 2px;
 }
-
 .container .leftSide .skills .dot.full {
   background-color: #ebebeb;
 }
-
 .container .leftSide .widget {
   margin: 100px 0 0 0;
 }
-
 .container .leftSide .widget .widgetLink {
   background-color: #000000;
   color: #ebebeb;
@@ -108,12 +100,10 @@ div section h3 {
   -webkit-box-shadow: 10px 10px 15px 5px #0000006e;
           box-shadow: 10px 10px 15px 5px #0000006e;
 }
-
 .container .leftSide .widget .widgetLink:hover {
   -webkit-box-shadow: 10px 10px 15px 5px #3b3b3bc9;
           box-shadow: 10px 10px 15px 5px #3b3b3bc9;
 }
-
 .container .leftSide .widget .widgetLink:active {
   -webkit-box-shadow: 5px 5px 8px 2px #3b3b3bc9 inset;
           box-shadow: 5px 5px 8px 2px #3b3b3bc9 inset;
@@ -124,69 +114,56 @@ div section h3 {
   color: #000000;
   background-color: #e0e0e0;
 }
-
 .rightSide .title {
   font-size: 50px;
   padding: 20px 0 0 0;
   margin: 40px 0;
 }
-
 .rightSide .bio .aboutMeText {
   margin: 0;
   line-height: 1.4;
 }
-
 .rightSide .myProjects a {
   text-decoration: none;
   color: #000000;
 }
-
 .rightSide .myProjects a:hover {
   color: #b4b4b4;
   padding: 10px;
 }
-
 .rightSide .myProjects a i {
   margin: 0 10px 0 0;
 }
-
 .rightSide .experience .job {
   margin: 0;
   padding: 10px 0 0 0;
 }
-
 .rightSide .experience .jobsTime {
   color: #6e6e6e;
   font-size: 14px;
   margin: 0;
 }
-
 .rightSide .experience .jobsTasks {
   padding: 10px 0;
   line-height: 1.4;
 }
-
 .rightSide .education .educationDegree {
   margin: 0;
   padding: 10px 0 0 0;
 }
-
 .rightSide .education .educationTime {
   margin: 0;
   font-size: 14px;
   color: #6e6e6e;
 }
-
 .rightSide .education .educationDetails {
   margin: 0;
   padding: 10px 0;
   line-height: 1.4;
 }
-
 .rightSide .consent {
   margin: 100px 0 0 0;
 }
-
 .rightSide .consent p {
   color: #00000057;
   font-style: italic;
