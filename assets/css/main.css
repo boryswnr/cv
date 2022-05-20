@@ -98,16 +98,16 @@ div section h3 {
   padding: 15px 40px;
   border-radius: 10px;
   font-size: 20px;
-  -webkit-box-shadow: 10px 10px 15px 5px #0000006e;
-          box-shadow: 10px 10px 15px 5px #0000006e;
+  -webkit-box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.431372549);
+          box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.431372549);
 }
 .container .leftSide .widget .widgetLink:hover {
-  -webkit-box-shadow: 10px 10px 15px 5px #3b3b3bc9;
-          box-shadow: 10px 10px 15px 5px #3b3b3bc9;
+  -webkit-box-shadow: 10px 10px 15px 5px rgba(59, 59, 59, 0.7882352941);
+          box-shadow: 10px 10px 15px 5px rgba(59, 59, 59, 0.7882352941);
 }
 .container .leftSide .widget .widgetLink:active {
-  -webkit-box-shadow: 5px 5px 8px 2px #3b3b3bc9 inset;
-          box-shadow: 5px 5px 8px 2px #3b3b3bc9 inset;
+  -webkit-box-shadow: 5px 5px 8px 2px rgba(59, 59, 59, 0.7882352941) inset;
+          box-shadow: 5px 5px 8px 2px rgba(59, 59, 59, 0.7882352941) inset;
 }
 
 .rightSide {
@@ -166,7 +166,7 @@ div section h3 {
   margin: 100px 0 0 0;
 }
 .rightSide .consent p {
-  color: #00000057;
+  color: rgba(0, 0, 0, 0.3411764706);
   font-style: italic;
   font-size: 12px;
 }
